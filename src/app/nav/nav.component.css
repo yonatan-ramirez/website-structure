@@ -1,0 +1,25 @@
+nav{
+  background-color: lightblue;
+  border-bottom: 1px solid rgba(117, 116, 116, 0.575);
+}
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+li {
+    float: none;
+    display: inline-block;
+  }
+
+.navbar-nav > li > a {
+  font-size: 23px;
+  font-family: cursive, sans-serif;
+  color: #000000;
+  border: 1px solid rgb(228, 222, 222);
+  /* background-color: lightgray; */
+
+}
+.navbar-brand{
+  /* background-color: rgb(157, 230, 255); */
+  color: rgb(134, 107, 167);
+}
