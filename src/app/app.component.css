@@ -1,8 +1,12 @@
-.bg{
-  height: 30%;
-}
 .header{
   font-family:  cursive, sans-serif;
   font-size: 25px;
   color: white;
+  margin-top: 1em;
+}
+.row{
+  padding: none;
+  margin: none;
+  border: none;
+  line-height: 0;
 }

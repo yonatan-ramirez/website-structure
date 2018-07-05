@@ -1,6 +1,6 @@
 nav{
-  background-color: lightblue;
-  border-bottom: 1px solid rgba(117, 116, 116, 0.575);
+  background-color: rgb(30, 33, 34);
+  border-bottom: 2px solid rgba(96, 255, 228, 0.575);
 }
 .navbar-nav {
   width: 100%;
@@ -14,12 +14,10 @@ li {
 .navbar-nav > li > a {
   font-size: 23px;
   font-family: cursive, sans-serif;
-  color: #000000;
-  border: 1px solid rgb(228, 222, 222);
+  color: rgba(96, 255, 228, 0.932);
+  border-right: 2px solid rgba(96, 255, 228, 0.575);
+  border-left: 2px solid rgba(96, 255, 228, 0.575);
   /* background-color: lightgray; */
 
 }
-.navbar-brand{
-  /* background-color: rgb(157, 230, 255); */
-  color: rgb(134, 107, 167);
-}
+

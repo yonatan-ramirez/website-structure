@@ -1,21 +1,23 @@
-<div class="bg" [ngStyle]="{'background-image': 'url(' + bg + ')'}">
-  <div class="container text-center">
-    <div class="header">
-    <h1>Andrew Arias</h1>
-      Photography
-      </div>
+<!-- <div class="bg" [ngStyle]="{'background-image': 'url(' + bg + ')'}"> -->
+  <!-- </div> -->
+
+  <div class= "row">
+    <nava (navSelected)="navigate($event)"></nava>
     </div>
-    <br>
-  </div>
-<div class= "row">
-  <div class="col-md-12">
-    <nava (navSelected)="navigate($event)">Loading...</nava>
-  </div>
-</div>
-<div class="container">
-  <div class="col-md-12">
-    <bodyComp *ngIf= "loadedFeature === 'bodyComp'"></bodyComp>
-    <gallary *ngIf= "loadedFeature === 'gallary'"></gallary>
+
+    <div class="bg2" [ngStyle]="{'background-image': 'url('+ bg2 +')'}">
+
+      <div class="container text-center">
+        <div class="header">
+          <h1>Andrew Arias</h1>
+          Photography
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-12">
+          <bodyComp *ngIf= "loadedFeature === 'bodyComp'"></bodyComp>
+          <gallary *ngIf= "loadedFeature === 'gallary'"></gallary>
     <about *ngIf= "loadedFeature === 'about'"></about>
   </div>
+</div>
 </div>
