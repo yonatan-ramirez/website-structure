@@ -7,18 +7,14 @@ ul > li {
 }
 .bg-1{
   /* border: */
-  background-color: lightblue;
+  background-color: rgba(173, 216, 230, 0.267);
   color: midnightblue;
+  padding: 1em;
 }
 .bg-2{
-  background-color: lightgray;
+  background-color: rgba(19, 253, 214, 0.24);
   padding: 20px;
 }
-/* .bg-3{
-} */
 .img-circle{
   border: 2px solid blue;
 }
-/* iframe{
-  background-color: orange;
-} */

@@ -10,3 +10,8 @@
   border: none;
   line-height: 0;
 }
+.bg2{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
