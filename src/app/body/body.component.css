@@ -4,17 +4,11 @@
 h3{
   padding: 1em;
 }
-
-ul > li {
-  background-color: blue;
-}
 .bg-1{
-  /* border: */
-  background-color: rgba(173, 216, 230, 0.267);
-  color: midnightblue;
+  color: white;
 }
 .bg-2{
-  background-color: rgba(19, 253, 214, 0.24);
+  color: white;
   padding: 20px;
 }
 /* .bg-3{

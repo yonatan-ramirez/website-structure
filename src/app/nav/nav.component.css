@@ -1,5 +1,5 @@
 nav{
-  background-color: rgb(30, 33, 34);
+  background-color: rgb(24, 26, 27);
   border-bottom: 2px solid rgba(96, 255, 228, 0.575);
 }
 .navbar-nav {
@@ -15,8 +15,7 @@ li {
   font-size: 23px;
   font-family: cursive, sans-serif;
   color: rgba(96, 255, 228, 0.932);
-  border-right: 2px solid rgba(96, 255, 228, 0.575);
-  border-left: 2px solid rgba(96, 255, 228, 0.575);
+
   /* background-color: lightgray; */
 
 }

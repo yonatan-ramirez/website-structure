@@ -6,14 +6,12 @@ ul > li {
   background-color: blue;
 }
 .bg-1{
-  /* border: */
-  background-color: rgba(173, 216, 230, 0.267);
-  color: midnightblue;
-  padding: 1em;
+  color: white;
+  /* padding: 1em; */
 }
 .bg-2{
-  background-color: rgba(19, 253, 214, 0.24);
-  padding: 20px;
+  color: white;
+  /* padding: 20px; */
 }
 .img-circle{
   border: 2px solid blue;

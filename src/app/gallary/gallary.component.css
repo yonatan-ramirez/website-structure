@@ -1,14 +1,15 @@
 .container-fluid {
   /* padding-top: 70px;
   padding-bottom: 70px; */
-  background-color: rgba(143, 142, 142, 0.301);
+  /* background-color: rgba(143, 142, 142, 0.301); */
+  color: white;
   padding: 4em;
 
 }
 .col-sm-4{
   border: 2px solid rgba(96, 255, 228, 0.575);
   border-radius: 25px;
-  background-color: rgba(211, 211, 211, 0.726);
+  background-color: rgba(211, 211, 211, 0.397);
   padding: 1em;
 }
 img{

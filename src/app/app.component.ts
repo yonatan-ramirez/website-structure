@@ -11,7 +11,7 @@ export class AppComponent {
   loadedFeature: string = 'bodyComp';
   bg2: string;
   constructor() {
-  this.bg2 = 'http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_blue_1920x1234.jpg';
+  this.bg2 = 'http://blog.hostbaby.com/wp-content/uploads/2013/07/bluestripes1920x1234.jpg';
   }
 
   navigate(feature: string) {
